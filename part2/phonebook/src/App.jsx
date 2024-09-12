@@ -100,7 +100,7 @@ const App = () => {
           `Information of ${name} has already been removed from server`
         );
         setTimeout(() => {
-          setErrorMsg("");
+          setErrorMsg("error: ", error);
         }, 5000);
       });
   };
